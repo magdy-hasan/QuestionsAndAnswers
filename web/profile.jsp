@@ -32,11 +32,11 @@
         <div class="profile-bg" style="background-image:url(/QuestionsAndAnswers/images/${sessionScope.user.backgroundname})">
             <img src="/QuestionsAndAnswers/images/${sessionScope.user.picname}" >
         </div>
-        <c:set var="mapIds" value="${applicationScope['allUsersIds']}"/>
         <section class="content">
             <h3 style="text-align: center;">Questions you asked  </h3>
             <hr/>
             <br>
+            <!-- view all answered question -->
             <c:forEach var="qu" items="${allQUAnswered}">   
                 <div class="question">
                     <h1 style="display: inline;">${qu.questionHead}</h1>
@@ -51,6 +51,7 @@
                 </div>
                 <hr/>
             </c:forEach>
+            <!-- End view all answered question -->
         </section>
 
         <!-- The Modal for changing photo -->
