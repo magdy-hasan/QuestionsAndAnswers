@@ -1,8 +1,5 @@
 # QuestionsAndAnswers
 
-### License
-
-    QuestionsAndAnswers is released under the GPL License (refer to the LICENSE file for details).
     
 This a questions and answers system ( kinda of like ask.fm idea ) built using jsp, servlet and mysql 
 
@@ -24,5 +21,9 @@ This a questions and answers system ( kinda of like ask.fm idea ) built using js
     
     -like people answeres
   
-  ### Other features to be implemented
+  ### Other features to be implemented.
+  
+  ### License
+
+    QuestionsAndAnswers is released under the GPL License (refer to the LICENSE file for details).
 
